@@ -1,0 +1,107 @@
+
+#topHead{
+
+    background-color: aquamarine;
+    padding:1px 0px 30px ;
+    height:20px;
+    width: 100%;
+}
+
+#botHead{
+    position: sticky;
+    background-color:rgb(0, 93, 180);
+    padding:20px 0px 20px ;
+    width: 100%;
+    box-shadow: 0px 10px 10px 2px grey;
+    
+}
+
+
+body {
+    height: 100%;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+h1 {    
+    margin-left: 50px;
+}
+
+h3{
+    position: relative;
+    top:-50px;
+}
+
+.fondoPer1{
+    height:150px;
+    width: 250px;
+    border-radius: 10px 10px 0px 0px;
+}
+.fondoPer2{
+    height:150px;
+    width: 250px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.seccTarjetas{
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+.personaje {
+    display: inline-block;
+    background-color: #f3f3f3;
+    height: 550px;
+    width: 250px;
+    margin: 20px;
+    box-shadow: 0px 5px 5px 0px grey;
+    }
+
+.fotoPer {
+    position: relative;
+    top:-50px;
+    left:15px;
+    height: 100px;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 0px 5px 5px 1px grey;
+}
+
+.descPer {
+    position: relative;
+    top: -50px;
+    width: 230px;
+    text-align: left;
+    padding: 0px 10px 10px 10px;
+}
+
+.cora {
+    position: relative;
+    left: -150px;
+    top:-200px;
+}
+
+.boton {
+    position:relative;
+    background-color: rgb(92, 149, 255);
+    width: 100px;
+    height: 30px;
+    padding-top: 10px;
+    border-radius: 5px 5px 5px 5px ;
+    left:75px;
+    top:-50px;
+}
+
+footer {
+    background-color: rgb(92, 149, 255);
+    height: 40px;
+    padding-top: 20px;
+    position: fixed;
+    width: 100%;
+    bottom:0px;
+    color: white;
+}
+
+main{
+    height: 900px;
+}
